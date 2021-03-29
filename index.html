@@ -14,35 +14,35 @@
       <section id="adding">
         <label class="adding__label" for="new-task">Add Item</label>
         <article class="task-wrapper">
-          <input id="new-task"class="adding__task task" type="text">
-          <button class="adding__button">Add</button>
+          <input id="new-task"class="main__input main__input_text task" type="text">
+          <button class="main__button main__button_add">Add</button>
         </article>
     </section>
-      <h3 class="main__heading">Todo</h3>
+      <h3 class="main__heading_h3">Todo</h3>
       <ul id="incomplete" class="incomplete">
         <li class="incomplete__item">
           <input class="main__input main__input_checkbox" type="checkbox">
           <label class="main__label task">Pay Bills</label>
           <input class="main__input main__input_text task" type="text">
           <button class="main__button main__button_edit">Edit</button> 
-          <button class="main__button main__button_delete"><img src="./remove.svg" alt=""></button>
+          <button class="main__button main__button_delete"><img class="icon" src="./remove.svg" alt=""></button>
         </li>
         <li class="incomplete__item _mode_edit"> <!--  -->
           <input class="main__input main__input_checkbox" type="checkbox">
           <label class="main__label task">Go Shopping</label>
           <input class="main__input main__input_text task" type="text" value="Go Shopping"> 
           <button class="main__button main__button_edit">Save</button>
-          <button class="main__button main__button_delete"><img src="./remove.svg" alt=""></button>
+          <button class="main__button main__button_delete"><img class="icon" src="./remove.svg" alt=""></button>
         </li>
       </ul>
-      <h3 class="main__heading">Completed</h3>
+      <h3 class="main__heading_h3">Completed</h3>
       <ul id="completed" class="completed">
         <li class="completed__item">
           <input class="main__input main__input_checkbox" type="checkbox" checked>
           <label class="main__label task">See the Doctor</label>
           <input class="main__input main__input_text task" type="text">
           <button class="main__button main__button_edit">Edit</button> 
-          <button class="main__button main__button_delete"><img src="./remove.svg" alt=""></button> <!--  -->
+          <button class="main__button main__button_delete"><img class="icon" src="./remove.svg" alt=""></button> <!--  -->
         </li>
       </ul>
     </main>
