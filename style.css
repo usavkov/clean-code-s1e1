@@ -41,10 +41,13 @@
     margin: 0;
     padding: 0px;
 }
-.incomplete__item, .completed__item, .main__heading_h3 {
+.incomplete__item,
+.completed__item,
+.main__heading_h3 {
     list-style: none;
 }
-.main__input, .main__button {
+.main__input,
+.main__button {
     outline: none;
 }
 .main__button {
